@@ -11,6 +11,7 @@ from app.handlers.qr import router as qr_router
 from app.handlers.hash import router as hash_router
 from app.handlers.base64 import router as base64_router
 from app.handlers.ip import router as ip_router
+from app.handlers.hashlist import router as hashlist_router
 
 async def main():
 
@@ -26,6 +27,7 @@ async def main():
     dp.include_router(hash_router)
     dp.include_router(base64_router)
     dp.include_router(ip_router)
+    dp.include_router(hashlist_router)
 
     print("Bot started")
 

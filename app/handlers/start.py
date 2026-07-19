@@ -11,12 +11,17 @@ async def start(message: Message):
 
     await message.answer(
         """
-🛠 Developer Toolbox
+Toolbox
 
 Available:
 
-/ping
-/hash
-/password
+/ping [url]
+/password [length]
+/lorem [length/sentence/words]
+/qr [data]
+/hash [algorithm] [text]
+/base64 [encode/decode] [text]
+
+
         """
     )

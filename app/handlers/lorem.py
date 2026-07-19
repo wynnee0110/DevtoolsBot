@@ -2,7 +2,7 @@ from aiogram import Router
 from aiogram.filters import Command
 from aiogram.types import Message
 
-from services.lorem import (
+from app.services.lorem import (
     generate_words,
     generate_sentence,
     generate_paragraphs,

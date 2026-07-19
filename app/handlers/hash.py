@@ -2,7 +2,7 @@ from aiogram import Router
 from aiogram.filters import Command
 from aiogram.types import Message
 
-from services.hash import hash_text
+from app.services.hash import hash_text
 
 router = Router()
 

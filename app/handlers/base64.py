@@ -2,7 +2,7 @@ from aiogram import Router
 from aiogram.filters import Command
 from aiogram.types import Message
 
-from services.base64 import encode_base64, decode_base64
+from app.services.base64 import encode_base64, decode_base64
 
 router = Router()
 

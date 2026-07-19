@@ -21,7 +21,7 @@ Available:
 /qr [data]
 /hash [algorithm] [text]
 /base64 [encode/decode] [text]
-
+/ip [ip_address]
 
         """
     )
